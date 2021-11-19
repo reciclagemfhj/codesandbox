@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Rubik", sans-serif;
+	/* border: 1px solid; */
+}
+
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.nav-bar {
+	height: 100px;
+	background-color: #8ef115;
+	color: white;
+	font-size: 18px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: rgb(245, 245, 245);
+	font-weight: bold;
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+	color: rgb(49, 189, 72);
+}
+
+.HomeContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	margin: 30px;
+}
+
+.HomeTitle {
+	margin: 50px;
+}
+
+.CursoContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.Curso {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px rgb(49, 189, 72);
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	margin: 40px;
+}
+
+.Curso-item {
+	width: 70%;
+	font-size: 16px;
+	color: black;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+}
+
+.Curso-item:hover {
+	background-color: #8ef115;
+	color: rgb(49, 189, 72);
+	font-weight: bold;
+	border: none;
+}
+
+.contactos {
+	padding: 20px;
+	margin: 20px;
+}
+
+.contactos > ul > li {
+	padding: 20px;
+}
+
+.usuarios-title {
+	margin: 20px;
+	padding: 10px;
+}
+
+.userslinks {
+	display: flex;
+	flex-direction: column;
+}
+
+.perfil {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin: 20px;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.userslinks div {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+
+.userslinks a {
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
